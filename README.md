@@ -42,7 +42,8 @@ The system ensures a seamless experience for both vehicle owners and parking att
 - Start the application: npm start or python app.py
 
 # Usage
-- Access the system via web interface
+- All the relevant files are uploaded including the server.js(backend) and CSS, JavaScript(frontend) on the repository.
+- You can access the system via web interface
 
 For parking attendants:
 - Register new vehicle entries
