@@ -1,0 +1,74 @@
+.admin-bookings {
+  padding: 2rem;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.admin-bookings h2 {
+  font-size: 28px;
+  color: #2a2f45;
+  margin-bottom: 1.2rem;
+}
+
+.status-msg {
+  margin: 1rem 0;
+  font-size: 16px;
+}
+
+.status-msg.error {
+  color: crimson;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #e1e4ea;
+  font-size: 15px;
+}
+
+th {
+  background-color: #283c63;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.status-badge.confirmed {
+  background-color: #d0f0c0;
+  color: #2e7d32;
+}
+
+.status-badge.cancelled {
+  background-color: #f9c0c0;
+  color: #b71c1c;
+}
+
+.status-badge.completed {
+  background-color: #d7e9f7;
+  color: #0d47a1;
+}

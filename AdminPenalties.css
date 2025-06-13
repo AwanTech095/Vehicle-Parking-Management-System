@@ -1,0 +1,65 @@
+/* AdminPenalties.css */
+
+h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 30px;
+    color: #34495e;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #2e86de;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1b4f72;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .status-msg {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  

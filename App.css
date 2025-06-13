@@ -1,0 +1,44 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1c92d2, #f2fcfe);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.role-selection {
+  background-color: white;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.role-selection h1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+.role-selection button {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.role-selection button:hover {
+  background-color: #0056b3;
+}

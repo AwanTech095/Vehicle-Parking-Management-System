@@ -1,0 +1,83 @@
+.membership-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.membership-container h2 {
+  color: #134e4a;
+  margin-bottom: 1.5rem;
+}
+
+.membership-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.membership-table th,
+.membership-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.membership-table th {
+  background-color: #134e4a;
+  color: white;
+}
+
+.select-button,
+.cancel-button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.select-button {
+  background-color: #0284c7;
+  color: white;
+}
+
+.select-button:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+
+.cancel-button {
+  margin-top: 10px;
+  background-color: #ef4444;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #dc2626;
+}
+
+.message {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.active-membership {
+  margin-bottom: 1.2rem;
+  padding: 10px;
+  background-color: #e0f7f7;
+  border: 1px solid #b2dfdb;
+  border-radius: 6px;
+}

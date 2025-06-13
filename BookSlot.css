@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.book-slot-container {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #f0f4f5, #e9f2f3);
+  min-height: 100vh;
+  padding: 2rem;
+  color: #123;
+}
+
+.book-slot-container h2,
+.book-slot-container h3 {
+  text-align: center;
+  color: #004d4d;
+  margin-bottom: 1.5rem;
+}
+
+.book-slot-container label {
+  font-weight: 600;
+  display: block;
+  margin: 10px 0 5px;
+  color: #004d4d;
+}
+
+.book-slot-container select,
+.book-slot-container input[type="datetime-local"] {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.book-slot-container button {
+  background-color: #00796b;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.book-slot-container button:hover {
+  background-color: #005b4f;
+}
+
+.book-slot-container p {
+  font-size: 1rem;
+}
+
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.booking-table th,
+.booking-table td {
+  padding: 0.8rem;
+  text-align: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.booking-table th {
+  background-color: #004d4d;
+  color: #fff;
+}
+
+.booking-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.booking-table button {
+  background-color: #d32f2f;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.booking-table button:hover {
+  background-color: #a92626;
+}

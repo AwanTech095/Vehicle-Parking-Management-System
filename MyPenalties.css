@@ -1,0 +1,72 @@
+.penalties-container {
+    padding: 2rem;
+    background-color: #f7f9fb;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .penalties-container h2 {
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+  }
+  
+  .status-msg {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .status-msg.success {
+    color: green;
+  }
+  
+  .status-msg.error {
+    color: red;
+  }
+  
+  .penalties-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .penalties-table th,
+  .penalties-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .penalties-table th {
+    background-color: #2563eb;
+    color: #fff;
+  }
+  
+  .pay-button {
+    padding: 6px 12px;
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  
+  .pay-button:hover {
+    background-color: #16a34a;
+  }
+  
+  .paid-badge {
+    color: #16a34a;
+    font-weight: bold;
+  }
+  
+  .no-penalties {
+    color: #4b5563;
+    font-style: italic;
+  }
+  

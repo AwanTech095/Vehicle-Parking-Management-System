@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.dashboard-container {
+  height: 100vh;
+  background: url('https://images.pexels.com/photos/20220875/pexels-photo-20220875.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  padding: 1rem;
+}
+
+.dashboard-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.dashboard-box {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 3rem 4rem;
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-box h2 {
+  font-size: 2.4rem;
+  color: #004d4d;
+  margin-bottom: 0.5rem;
+}
+
+.welcome {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.button-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+}
+
+.button-group button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button-group button:hover {
+  background-color: #005b4f;
+  transform: translateY(-2px);
+}

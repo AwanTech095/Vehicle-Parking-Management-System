@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.admin-slots {
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  min-height: 100vh;
+}
+
+.admin-slots h2 {
+  color: #1f3b73;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.admin-slots .status-msg {
+  color: #28a745;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.admin-slots table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 15px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease;
+}
+
+.admin-slots th, .admin-slots td {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.admin-slots th {
+  background-color: #1f3b73;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.admin-slots tr:hover {
+  background-color: #f3f9ff;
+}
+
+.admin-slots select,
+.admin-slots input[type="datetime-local"] {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+  background-color: #fdfdfd;
+  transition: all 0.2s ease;
+}
+
+.admin-slots select:focus,
+.admin-slots input[type="datetime-local"]:focus {
+  outline: none;
+  border-color: #1f3b73;
+  box-shadow: 0 0 5px rgba(31, 59, 115, 0.3);
+}
+
+.admin-slots button {
+  background-color: #1f3b73;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.25s ease, transform 0.1s ease;
+}
+
+.admin-slots button:hover {
+  background-color: #16305e;
+  transform: scale(1.03);
+}
+
+.admin-slots button:disabled {
+  background-color: #cccccc;
+  color: #666;
+  cursor: not-allowed;
+}

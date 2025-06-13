@@ -1,0 +1,91 @@
+.admin-payments-container {
+    padding: 2rem;
+    background: #f5f7fa;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    min-height: 100vh;
+  }
+  
+  .admin-payments-container h2 {
+    color: #2a2f45;
+    font-size: 28px;
+    margin-bottom: 1rem;
+  }
+  
+  .total-revenue {
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .total-revenue span {
+    color: #388e3c;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: crimson;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  
+  .no-data {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .payments-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .payments-table th,
+  .payments-table td {
+    padding: 1rem;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid #e0e6ed;
+  }
+  
+  .payments-table th {
+    background-color: #1e3a5f;
+    color: white;
+  }
+  
+  .payments-table tr:nth-child(even) {
+    background-color: #f0f4f8;
+  }
+  
+  .status-paid {
+    background-color: #d0f0c0;
+    color: #2e7d32;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .status-pending {
+    background-color: #fff3cd;
+    color: #8a6d3b;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .status-failed {
+    background-color: #f8d7da;
+    color: #b71c1c;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  

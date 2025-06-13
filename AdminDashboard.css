@@ -1,0 +1,68 @@
+.admin-container {
+  height: 100vh;
+  background: url('https://images.pexels.com/photos/20220875/pexels-photo-20220875.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
+
+.admin-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for text contrast */
+  z-index: 0;
+}
+
+.admin-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 3rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  width: 90%;
+  max-width: 700px;
+  position: relative;
+  z-index: 1;
+}
+
+.admin-box h2 {
+  color: #004d4d;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.admin-welcome {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.admin-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.admin-buttons button {
+  flex: 1 1 40%;
+  background-color: #008080; /* Teal color */
+  color: #fff;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.admin-buttons button:hover {
+  background-color: #006666;
+  transform: translateY(-2px);
+}
