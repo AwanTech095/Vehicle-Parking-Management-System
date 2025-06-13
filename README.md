@@ -5,9 +5,9 @@ The system ensures a seamless experience for both vehicle owners and parking att
 
 # Features
 1. Vehicle Entry & Exit Logging
--Records vehicle details upon entry (License Plate, Owner Name, Vehicle Type)
--Generates a unique parking record for each vehicle
--Captures entry and exit timestamps automatically
+- Records vehicle details upon entry (License Plate, Owner Name, Vehicle Type)
+- Generates a unique parking record for each vehicle
+- Captures entry and exit timestamps automatically
 
 2. Parking Slot Allocation & Status Tracking
 -Assigns available parking slots based on vehicle type (Car/Bike)
